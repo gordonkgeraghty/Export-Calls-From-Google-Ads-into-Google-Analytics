@@ -1,4 +1,4 @@
-# Export Calls From Google Ads into Google Analytics
+# Sync "Calls From Ads" in Google Ads with Google Analytics
 
 This scripts is to send Google Ads Hosted conversions into Google Analytics.
 The issue with Google Ads is that it will not export goals or sync up with Google Analytics.
