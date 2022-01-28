@@ -23,7 +23,7 @@ var campaignSource = 'google'; //ensures the GA goal is attributed to Google
 var campaignMedium = 'cpc'; //ensures the GA goal is attributed to paid search
 var eventCat = 'Google%20Ads%20Conversion'; //change this to edit the Event Category, maintaining URL Encoding<be> var eventAct = 'Calls from ads'; //change this to edit the Event action, maintaining URL Encoding var postURL = 'https://www.google-analytics.com/collect';
 var queueTime = 12600000; //3.5 hours in milliseconds so we can send the data at 2am and it is assigned to the previous day
-var hostName = 'southernplus.org.au'; // replace this with the hostname of client's webiste
+var hostName = '{{hostname}}'; // replace this with the hostname of client's webiste
 
 //loop to build measurement protocol from each row of report data
 while (rows.hasNext()){
